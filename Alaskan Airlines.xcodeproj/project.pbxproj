@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174385321FA901CB00F077DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174385311FA901CB00F077DB /* Model.swift */; };
+		174385331FA9052900F077DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174385311FA901CB00F077DB /* Model.swift */; };
+		177CB0DD1FA8FE2C001D959E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177CB0DC1FA8FE2C001D959E /* AppDelegate.swift */; };
+		177CB0DF1FA8FE2C001D959E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177CB0DE1FA8FE2C001D959E /* ViewController.swift */; };
+		177CB0E21FA8FE2C001D959E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177CB0E01FA8FE2C001D959E /* Main.storyboard */; };
+		177CB0E51FA8FE2C001D959E /* Alaskan_Airlines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 177CB0E31FA8FE2C001D959E /* Alaskan_Airlines.xcdatamodeld */; };
+		177CB0E71FA8FE2C001D959E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177CB0E61FA8FE2C001D959E /* Assets.xcassets */; };
+		177CB0EA1FA8FE2C001D959E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177CB0E81FA8FE2C001D959E /* LaunchScreen.storyboard */; };
+		177CB0F51FA8FE2C001D959E /* Alaskan_AirlinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177CB0F41FA8FE2C001D959E /* Alaskan_AirlinesTests.swift */; };
+		177CB1001FA8FE2C001D959E /* Alaskan_AirlinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177CB0FF1FA8FE2C001D959E /* Alaskan_AirlinesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		177CB0F11FA8FE2C001D959E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177CB0D11FA8FE2C001D959E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 177CB0D81FA8FE2C001D959E;
+			remoteInfo = "Alaskan Airlines";
+		};
+		177CB0FC1FA8FE2C001D959E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177CB0D11FA8FE2C001D959E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 177CB0D81FA8FE2C001D959E;
+			remoteInfo = "Alaskan Airlines";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		174385311FA901CB00F077DB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		177CB0D91FA8FE2C001D959E /* Alaskan Airlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alaskan Airlines.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		177CB0DC1FA8FE2C001D959E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		177CB0DE1FA8FE2C001D959E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		177CB0E11FA8FE2C001D959E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		177CB0E41FA8FE2C001D959E /* Alaskan_Airlines.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alaskan_Airlines.xcdatamodel; sourceTree = "<group>"; };
+		177CB0E61FA8FE2C001D959E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		177CB0E91FA8FE2C001D959E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		177CB0EB1FA8FE2C001D959E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177CB0F01FA8FE2C001D959E /* Alaskan AirlinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alaskan AirlinesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		177CB0F41FA8FE2C001D959E /* Alaskan_AirlinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alaskan_AirlinesTests.swift; sourceTree = "<group>"; };
+		177CB0F61FA8FE2C001D959E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177CB0FB1FA8FE2C001D959E /* Alaskan AirlinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alaskan AirlinesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		177CB0FF1FA8FE2C001D959E /* Alaskan_AirlinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alaskan_AirlinesUITests.swift; sourceTree = "<group>"; };
+		177CB1011FA8FE2C001D959E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177CB0D61FA8FE2C001D959E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177CB0ED1FA8FE2C001D959E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177CB0F81FA8FE2C001D959E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177CB0D01FA8FE2C001D959E = {
+			isa = PBXGroup;
+			children = (
+				177CB0DB1FA8FE2C001D959E /* Alaskan Airlines */,
+				177CB0F31FA8FE2C001D959E /* Alaskan AirlinesTests */,
+				177CB0FE1FA8FE2C001D959E /* Alaskan AirlinesUITests */,
+				177CB0DA1FA8FE2C001D959E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		177CB0DA1FA8FE2C001D959E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				177CB0D91FA8FE2C001D959E /* Alaskan Airlines.app */,
+				177CB0F01FA8FE2C001D959E /* Alaskan AirlinesTests.xctest */,
+				177CB0FB1FA8FE2C001D959E /* Alaskan AirlinesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		177CB0DB1FA8FE2C001D959E /* Alaskan Airlines */ = {
+			isa = PBXGroup;
+			children = (
+				177CB0DC1FA8FE2C001D959E /* AppDelegate.swift */,
+				177CB0DE1FA8FE2C001D959E /* ViewController.swift */,
+				177CB0E01FA8FE2C001D959E /* Main.storyboard */,
+				177CB0E61FA8FE2C001D959E /* Assets.xcassets */,
+				177CB0E81FA8FE2C001D959E /* LaunchScreen.storyboard */,
+				177CB0EB1FA8FE2C001D959E /* Info.plist */,
+				177CB0E31FA8FE2C001D959E /* Alaskan_Airlines.xcdatamodeld */,
+				174385311FA901CB00F077DB /* Model.swift */,
+			);
+			path = "Alaskan Airlines";
+			sourceTree = "<group>";
+		};
+		177CB0F31FA8FE2C001D959E /* Alaskan AirlinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				177CB0F41FA8FE2C001D959E /* Alaskan_AirlinesTests.swift */,
+				177CB0F61FA8FE2C001D959E /* Info.plist */,
+			);
+			path = "Alaskan AirlinesTests";
+			sourceTree = "<group>";
+		};
+		177CB0FE1FA8FE2C001D959E /* Alaskan AirlinesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				177CB0FF1FA8FE2C001D959E /* Alaskan_AirlinesUITests.swift */,
+				177CB1011FA8FE2C001D959E /* Info.plist */,
+			);
+			path = "Alaskan AirlinesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		177CB0D81FA8FE2C001D959E /* Alaskan Airlines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177CB1041FA8FE2C001D959E /* Build configuration list for PBXNativeTarget "Alaskan Airlines" */;
+			buildPhases = (
+				177CB0D51FA8FE2C001D959E /* Sources */,
+				177CB0D61FA8FE2C001D959E /* Frameworks */,
+				177CB0D71FA8FE2C001D959E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alaskan Airlines";
+			productName = "Alaskan Airlines";
+			productReference = 177CB0D91FA8FE2C001D959E /* Alaskan Airlines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		177CB0EF1FA8FE2C001D959E /* Alaskan AirlinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177CB1071FA8FE2C001D959E /* Build configuration list for PBXNativeTarget "Alaskan AirlinesTests" */;
+			buildPhases = (
+				177CB0EC1FA8FE2C001D959E /* Sources */,
+				177CB0ED1FA8FE2C001D959E /* Frameworks */,
+				177CB0EE1FA8FE2C001D959E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177CB0F21FA8FE2C001D959E /* PBXTargetDependency */,
+			);
+			name = "Alaskan AirlinesTests";
+			productName = "Alaskan AirlinesTests";
+			productReference = 177CB0F01FA8FE2C001D959E /* Alaskan AirlinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		177CB0FA1FA8FE2C001D959E /* Alaskan AirlinesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177CB10A1FA8FE2C001D959E /* Build configuration list for PBXNativeTarget "Alaskan AirlinesUITests" */;
+			buildPhases = (
+				177CB0F71FA8FE2C001D959E /* Sources */,
+				177CB0F81FA8FE2C001D959E /* Frameworks */,
+				177CB0F91FA8FE2C001D959E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177CB0FD1FA8FE2C001D959E /* PBXTargetDependency */,
+			);
+			name = "Alaskan AirlinesUITests";
+			productName = "Alaskan AirlinesUITests";
+			productReference = 177CB0FB1FA8FE2C001D959E /* Alaskan AirlinesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177CB0D11FA8FE2C001D959E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "RJT Compuquest";
+				TargetAttributes = {
+					177CB0D81FA8FE2C001D959E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					177CB0EF1FA8FE2C001D959E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 177CB0D81FA8FE2C001D959E;
+					};
+					177CB0FA1FA8FE2C001D959E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 177CB0D81FA8FE2C001D959E;
+					};
+				};
+			};
+			buildConfigurationList = 177CB0D41FA8FE2C001D959E /* Build configuration list for PBXProject "Alaskan Airlines" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 177CB0D01FA8FE2C001D959E;
+			productRefGroup = 177CB0DA1FA8FE2C001D959E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				177CB0D81FA8FE2C001D959E /* Alaskan Airlines */,
+				177CB0EF1FA8FE2C001D959E /* Alaskan AirlinesTests */,
+				177CB0FA1FA8FE2C001D959E /* Alaskan AirlinesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		177CB0D71FA8FE2C001D959E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CB0EA1FA8FE2C001D959E /* LaunchScreen.storyboard in Resources */,
+				177CB0E71FA8FE2C001D959E /* Assets.xcassets in Resources */,
+				177CB0E21FA8FE2C001D959E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177CB0EE1FA8FE2C001D959E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177CB0F91FA8FE2C001D959E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177CB0D51FA8FE2C001D959E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CB0DF1FA8FE2C001D959E /* ViewController.swift in Sources */,
+				177CB0DD1FA8FE2C001D959E /* AppDelegate.swift in Sources */,
+				177CB0E51FA8FE2C001D959E /* Alaskan_Airlines.xcdatamodeld in Sources */,
+				174385321FA901CB00F077DB /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177CB0EC1FA8FE2C001D959E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CB0F51FA8FE2C001D959E /* Alaskan_AirlinesTests.swift in Sources */,
+				174385331FA9052900F077DB /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177CB0F71FA8FE2C001D959E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CB1001FA8FE2C001D959E /* Alaskan_AirlinesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		177CB0F21FA8FE2C001D959E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 177CB0D81FA8FE2C001D959E /* Alaskan Airlines */;
+			targetProxy = 177CB0F11FA8FE2C001D959E /* PBXContainerItemProxy */;
+		};
+		177CB0FD1FA8FE2C001D959E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 177CB0D81FA8FE2C001D959E /* Alaskan Airlines */;
+			targetProxy = 177CB0FC1FA8FE2C001D959E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		177CB0E01FA8FE2C001D959E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177CB0E11FA8FE2C001D959E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		177CB0E81FA8FE2C001D959E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177CB0E91FA8FE2C001D959E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		177CB1021FA8FE2C001D959E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		177CB1031FA8FE2C001D959E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		177CB1051FA8FE2C001D959E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				INFOPLIST_FILE = "Alaskan Airlines/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abe.Alaskan-Airlines";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		177CB1061FA8FE2C001D959E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				INFOPLIST_FILE = "Alaskan Airlines/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abe.Alaskan-Airlines";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		177CB1081FA8FE2C001D959E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				INFOPLIST_FILE = "Alaskan AirlinesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abe.Alaskan-AirlinesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alaskan Airlines.app/Alaskan Airlines";
+			};
+			name = Debug;
+		};
+		177CB1091FA8FE2C001D959E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				INFOPLIST_FILE = "Alaskan AirlinesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abe.Alaskan-AirlinesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alaskan Airlines.app/Alaskan Airlines";
+			};
+			name = Release;
+		};
+		177CB10B1FA8FE2C001D959E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				INFOPLIST_FILE = "Alaskan AirlinesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abe.Alaskan-AirlinesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alaskan Airlines";
+			};
+			name = Debug;
+		};
+		177CB10C1FA8FE2C001D959E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQAE768Z9N;
+				INFOPLIST_FILE = "Alaskan AirlinesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abe.Alaskan-AirlinesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alaskan Airlines";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177CB0D41FA8FE2C001D959E /* Build configuration list for PBXProject "Alaskan Airlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177CB1021FA8FE2C001D959E /* Debug */,
+				177CB1031FA8FE2C001D959E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177CB1041FA8FE2C001D959E /* Build configuration list for PBXNativeTarget "Alaskan Airlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177CB1051FA8FE2C001D959E /* Debug */,
+				177CB1061FA8FE2C001D959E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177CB1071FA8FE2C001D959E /* Build configuration list for PBXNativeTarget "Alaskan AirlinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177CB1081FA8FE2C001D959E /* Debug */,
+				177CB1091FA8FE2C001D959E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177CB10A1FA8FE2C001D959E /* Build configuration list for PBXNativeTarget "Alaskan AirlinesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177CB10B1FA8FE2C001D959E /* Debug */,
+				177CB10C1FA8FE2C001D959E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		177CB0E31FA8FE2C001D959E /* Alaskan_Airlines.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				177CB0E41FA8FE2C001D959E /* Alaskan_Airlines.xcdatamodel */,
+			);
+			currentVersion = 177CB0E41FA8FE2C001D959E /* Alaskan_Airlines.xcdatamodel */;
+			path = Alaskan_Airlines.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 177CB0D11FA8FE2C001D959E /* Project object */;
+}
