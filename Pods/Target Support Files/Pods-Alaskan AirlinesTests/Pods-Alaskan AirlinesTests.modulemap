@@ -1,0 +1,6 @@
+framework module Pods_Alaskan_AirlinesTests {
+  umbrella header "Pods-Alaskan AirlinesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

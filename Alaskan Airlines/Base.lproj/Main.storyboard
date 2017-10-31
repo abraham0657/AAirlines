@@ -12,6 +12,9 @@
         <array key="MalayalamSangamMN.ttc">
             <string>MalayalamSangamMN</string>
         </array>
+        <array key="MyanmarSangamMN.ttc">
+            <string>MyanmarSangamMN-Bold</string>
+        </array>
     </customFonts>
     <scenes>
         <!--AA Flight Search-->
@@ -22,60 +25,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIq-Ii-f6Y">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIq-Ii-f6Y">
+                                <rect key="frame" x="0.0" y="116" width="375" height="551"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alaskan" translatesAutoresizingMaskIntoConstraints="NO" id="Tdu-Cj-qzY">
-                                <rect key="frame" x="12" y="190" width="350" height="350"/>
+                                <rect key="frame" x="12" y="216.5" width="350" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="350" id="PcP-uf-VhU"/>
                                     <constraint firstAttribute="width" constant="350" id="cXS-0J-3lQ"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XPT-Y5-C6U" customClass="SkyFloatingLabelTextField" customModule="Alaskan_Airlines" customModuleProvider="target">
-                                <rect key="frame" x="91" y="94" width="192" height="24"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Airline (Ex. SEA, LAX)"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Airline"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
-                                        <real key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ci6-dg-Bvu">
-                                <rect key="frame" x="91.5" y="121" width="192" height="2"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="2" id="hZT-gZ-4jw"/>
-                                </constraints>
-                            </view>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Raa-pt-hjv" customClass="SkyFloatingLabelTextField" customModule="Alaskan_Airlines" customModuleProvider="target">
-                                <rect key="frame" x="25" y="157" width="136" height="25"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Raa-pt-hjv" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                <rect key="frame" x="25" y="210" width="136" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="e3L-bQ-uDM"/>
+                                    <constraint firstAttribute="height" constant="44" id="e3L-bQ-uDM"/>
                                     <constraint firstAttribute="width" constant="136" id="rSi-j3-mnb"/>
                                 </constraints>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="next"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,21 +64,67 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
                                         <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXr-bG-8Ym">
-                                <rect key="frame" x="25" y="185" width="136" height="2"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="2" id="lHg-in-PhQ"/>
-                                </constraints>
-                            </view>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EMG-nc-jlL" customClass="SkyFloatingLabelTextField" customModule="Alaskan_Airlines" customModuleProvider="target">
-                                <rect key="frame" x="214" y="157" width="136" height="25"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EMG-nc-jlL" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                <rect key="frame" x="214" y="210" width="136" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="136" id="gEt-I2-tri"/>
-                                    <constraint firstAttribute="height" constant="25" id="tyZ-vf-19b"/>
+                                    <constraint firstAttribute="height" constant="44" id="tyZ-vf-19b"/>
+                                </constraints>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Minutes After"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Minutes After"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjG-7c-j6x">
+                                <rect key="frame" x="112" y="304" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.3747749924659729" green="0.51757246255874634" blue="0.51765072345733643" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="fxu-Rg-fNQ"/>
+                                    <constraint firstAttribute="height" constant="50" id="t4D-68-bno"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="21"/>
+                                <state key="normal" title="Search">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XPT-Y5-C6U" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                <rect key="frame" x="25" y="146" width="325" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Xef-qg-UA8"/>
                                 </constraints>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="20"/>
@@ -126,55 +142,53 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Minutes Before"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Minutes Before"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Airline (ex. SEA, LAX)"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Airline"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
                                         <real key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Airline"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNh-w7-Ako">
-                                <rect key="frame" x="214" y="185" width="136" height="2"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="2" id="AO0-HJ-2BJ"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.219864923984639" green="0.52048620333857354" blue="0.82073973466695282" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="ci6-dg-Bvu" firstAttribute="width" secondItem="XPT-Y5-C6U" secondAttribute="width" id="1qB-is-2yL"/>
-                            <constraint firstItem="dXr-bG-8Ym" firstAttribute="leading" secondItem="Raa-pt-hjv" secondAttribute="leading" id="2gb-Hw-UDC"/>
-                            <constraint firstItem="Raa-pt-hjv" firstAttribute="top" secondItem="ci6-dg-Bvu" secondAttribute="bottom" constant="34" id="3Zx-HI-XqR"/>
                             <constraint firstItem="XPT-Y5-C6U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="4jy-Tb-6RK"/>
-                            <constraint firstItem="XPT-Y5-C6U" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8ln-UK-inS"/>
-                            <constraint firstItem="dXr-bG-8Ym" firstAttribute="top" secondItem="Raa-pt-hjv" secondAttribute="bottom" constant="3" id="9kC-56-OTR"/>
-                            <constraint firstItem="RNh-w7-Ako" firstAttribute="top" secondItem="EMG-nc-jlL" secondAttribute="bottom" constant="3" id="DfE-S2-uef"/>
-                            <constraint firstItem="EMG-nc-jlL" firstAttribute="top" secondItem="ci6-dg-Bvu" secondAttribute="bottom" constant="34" id="Ki2-X6-0EQ"/>
-                            <constraint firstItem="ci6-dg-Bvu" firstAttribute="leading" secondItem="XPT-Y5-C6U" secondAttribute="leading" id="Mhc-Lf-VmP"/>
+                            <constraint firstItem="EMG-nc-jlL" firstAttribute="top" secondItem="XPT-Y5-C6U" secondAttribute="bottom" constant="20" id="5Bw-GR-Ugo"/>
+                            <constraint firstItem="XPT-Y5-C6U" firstAttribute="leading" secondItem="Raa-pt-hjv" secondAttribute="leading" id="HFf-IO-Dtj"/>
+                            <constraint firstItem="bjG-7c-j6x" firstAttribute="top" secondItem="Raa-pt-hjv" secondAttribute="bottom" constant="50" id="JI3-o8-c5Z"/>
                             <constraint firstItem="FIq-Ii-f6Y" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SNu-H3-PRy"/>
-                            <constraint firstItem="ci6-dg-Bvu" firstAttribute="top" secondItem="XPT-Y5-C6U" secondAttribute="bottom" constant="3" id="TnX-PY-bFv"/>
                             <constraint firstItem="FIq-Ii-f6Y" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WM5-NH-lyG"/>
-                            <constraint firstItem="RNh-w7-Ako" firstAttribute="width" secondItem="EMG-nc-jlL" secondAttribute="width" id="fje-Ko-mXn"/>
+                            <constraint firstItem="Raa-pt-hjv" firstAttribute="top" secondItem="XPT-Y5-C6U" secondAttribute="bottom" constant="20" id="ffF-F2-vKx"/>
                             <constraint firstItem="Tdu-Cj-qzY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fy6-53-e4Q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EMG-nc-jlL" secondAttribute="trailing" constant="25" id="gIZ-h5-T8z"/>
                             <constraint firstItem="FIq-Ii-f6Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="k5b-Tv-ZcU"/>
-                            <constraint firstItem="dXr-bG-8Ym" firstAttribute="width" secondItem="Raa-pt-hjv" secondAttribute="width" id="nFo-XY-xgM"/>
                             <constraint firstItem="Tdu-Cj-qzY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vq4-D3-6bb"/>
-                            <constraint firstItem="RNh-w7-Ako" firstAttribute="trailing" secondItem="EMG-nc-jlL" secondAttribute="trailing" id="w1J-A5-rx3"/>
+                            <constraint firstItem="XPT-Y5-C6U" firstAttribute="trailing" secondItem="EMG-nc-jlL" secondAttribute="trailing" id="wr3-ND-tJE"/>
                             <constraint firstItem="FIq-Ii-f6Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xIa-Kl-KRc"/>
                             <constraint firstItem="Raa-pt-hjv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="zPJ-Mo-yPc"/>
+                            <constraint firstItem="bjG-7c-j6x" firstAttribute="centerX" secondItem="FIq-Ii-f6Y" secondAttribute="centerX" id="zYb-QP-wVC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="AA Flight Search" largeTitleDisplayMode="always" id="SF1-k3-IEJ"/>
                     <connections>
+                        <outlet property="airportTextField" destination="XPT-Y5-C6U" id="XRV-yJ-vDL"/>
+                        <outlet property="minAfterTextField" destination="EMG-nc-jlL" id="k4d-Hz-LdE"/>
+                        <outlet property="minBeforeTextField" destination="Raa-pt-hjv" id="Omp-Ja-0Sk"/>
+                        <outlet property="searchBtn" destination="bjG-7c-j6x" id="Ac7-lk-v1M"/>
                         <segue destination="S44-NB-pDN" kind="show" id="xIy-Nn-Kr8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476" y="133.5832083958021"/>
+            <point key="canvasLocation" x="564" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6k1-wY-kih">
@@ -184,13 +198,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VJb-Gg-K4c">
-                                <rect key="frame" x="90" y="291" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VJb-Gg-K4c">
+                                <rect key="frame" x="0.0" y="116" width="375" height="551"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mg7-Fi-ZeR" firstAttribute="bottom" secondItem="VJb-Gg-K4c" secondAttribute="bottom" id="3el-X8-ugO"/>
+                            <constraint firstItem="Mg7-Fi-ZeR" firstAttribute="trailing" secondItem="VJb-Gg-K4c" secondAttribute="trailing" id="Ni4-BL-2qw"/>
+                            <constraint firstItem="VJb-Gg-K4c" firstAttribute="top" secondItem="Mg7-Fi-ZeR" secondAttribute="top" id="cOb-3Q-JNo"/>
+                            <constraint firstItem="VJb-Gg-K4c" firstAttribute="leading" secondItem="Mg7-Fi-ZeR" secondAttribute="leading" id="kNh-XY-nU9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Mg7-Fi-ZeR"/>
                     </view>
                 </viewController>
@@ -203,8 +222,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qbp-hF-gKq" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="O8w-ac-0m5">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="O8w-ac-0m5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

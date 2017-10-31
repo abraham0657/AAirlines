@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import SkyFloatingLabelTextField
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var airportTextField: SkyFloatingLabelTextField!
+    @IBOutlet weak var minBeforeTextField: SkyFloatingLabelTextField!
+    @IBOutlet weak var minAfterTextField: SkyFloatingLabelTextField!
+    @IBOutlet weak var searchBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        searchBtn.layer.cornerRadius = 8
     }
 
     override func didReceiveMemoryWarning() {
