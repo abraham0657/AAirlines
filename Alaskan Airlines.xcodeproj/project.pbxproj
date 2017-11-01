@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		174385321FA901CB00F077DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174385311FA901CB00F077DB /* Model.swift */; };
 		174385331FA9052900F077DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174385311FA901CB00F077DB /* Model.swift */; };
+		17643F361FAA3B8D0030565F /* MockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 17643F351FAA3B8D0030565F /* MockData.json */; };
 		177CB0DD1FA8FE2C001D959E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177CB0DC1FA8FE2C001D959E /* AppDelegate.swift */; };
 		177CB0DF1FA8FE2C001D959E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177CB0DE1FA8FE2C001D959E /* ViewController.swift */; };
 		177CB0E21FA8FE2C001D959E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177CB0E01FA8FE2C001D959E /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		174385311FA901CB00F077DB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		17643F351FAA3B8D0030565F /* MockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData.json; sourceTree = "<group>"; };
 		177CB0D91FA8FE2C001D959E /* Alaskan Airlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alaskan Airlines.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		177CB0DC1FA8FE2C001D959E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		177CB0DE1FA8FE2C001D959E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				177CB0F41FA8FE2C001D959E /* Alaskan_AirlinesTests.swift */,
 				177CB0F61FA8FE2C001D959E /* Info.plist */,
+				17643F351FAA3B8D0030565F /* MockData.json */,
 			);
 			path = "Alaskan AirlinesTests";
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17643F361FAA3B8D0030565F /* MockData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

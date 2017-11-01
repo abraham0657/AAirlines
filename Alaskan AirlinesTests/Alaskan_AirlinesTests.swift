@@ -30,9 +30,8 @@ class Alaskan_AirlinesTests: XCTestCase {
         self.measure {
             let flightsServiceCallExpectation = expectation(description: "fetchFlights")
             
-            Model.shared.fetchFlights(minutesPast: 10, minutesFuture: 10) { (flights) in
-                let olderFlights = flights.filter({ $0.date > Calendar.current.date(byAdding: .minute, value: -10, to: Date())! })
-                XCTAssertTrue(olderFlights.isEmpty)
+            FlightService.shared.fetchFlights(airport: "LAX", pastMinutes: 5, futureMinutes: 100) { (flights) in
+                
                 flightsServiceCallExpectation.fulfill()
             }
             
