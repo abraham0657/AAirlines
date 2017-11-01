@@ -10,11 +10,14 @@ import UIKit
 import SkyFloatingLabelTextField
 
 class ViewController: UIViewController {
+    
+    // TODO: add dismissing keyboard, add error view, get API credentials
 
     @IBOutlet weak var airportTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var minBeforeTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var minAfterTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var searchBtn: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,10 +25,12 @@ class ViewController: UIViewController {
         searchBtn.layer.cornerRadius = 8
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     @IBAction func searchBtnPressed(_ sender: UIButton) {
         if airportTextField.text?.count != 3 {
@@ -35,6 +40,12 @@ class ViewController: UIViewController {
         } else {
             // conduct search
         }
+    }
+    
+    
+    // to dismiss keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
 
 }
