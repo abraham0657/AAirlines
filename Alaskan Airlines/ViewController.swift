@@ -7,19 +7,66 @@
 //
 
 import UIKit
+import SkyFloatingLabelTextField
 
 class ViewController: UIViewController {
+    
+    // TODO: add dismissing keyboard, add error view, get API credentials
 
+    @IBOutlet weak var airportTextField: SkyFloatingLabelTextField!
+    @IBOutlet weak var minBeforeTextField: SkyFloatingLabelTextField!
+    @IBOutlet weak var minAfterTextField: SkyFloatingLabelTextField!
+    @IBOutlet weak var searchBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        searchBtn.layer.cornerRadius = 8
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    @IBAction func searchBtnPressed(_ sender: UIButton) {
+        if airportTextField.text?.count != 3 {
+            // error
+        } else if minBeforeTextField.text!.isEmpty || minAfterTextField.text!.isEmpty {
+            // error
+        } else {
+            // conduct search
+        }
+    }
+    
+    
+    // to dismiss keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 
 }
 
+extension ViewController: UITextFieldDelegate {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if textField == airportTextField {
+            if string != "" && airportTextField.text!.count >= 3 {
+                return false
+            } else {
+                airportTextField.text = (textField.text! as NSString).replacingCharacters(in: range, with: string.uppercased())
+                return false    // returning since we already updated textfield
+            }
+        }
+        
+        return true
+    }
+
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        let skyTxtField = textField as! SkyFloatingLabelTextField
+        skyTxtField.errorMessage = (textField.text?.isEmpty)! ? "Invalid Input" : nil
+    }
+}
