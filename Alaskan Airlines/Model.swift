@@ -48,6 +48,7 @@ class FlightService {
     static let shared = FlightService()
     
     func fetchFlights(airport: String, pastMinutes: Int, futureMinutes: Int, completion: @escaping ([Flights]) -> Void) {
+        UserDefaults.standard.set(airport, forKey: "previousAirportSearch")
         var request = URLRequest(url: URL(string: "https://api.qa.alaskaair.com/1/airports/\(airport)/flights/\(pastMinutes)/\(futureMinutes)")!)
         request.setValue("Basic YWFnZTQxNDAxMjgwODYyNDk3NWFiYWNhZjlhNjZjMDRlMWY6ODYyYTk0NTFhYjliNGY1M2EwZWJiOWI2ZWQ1ZjYwOGM=", forHTTPHeaderField: "Authorization")
         

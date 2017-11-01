@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         } else if minBeforeTextField.text!.isEmpty || minAfterTextField.text!.isEmpty {
             // error
         } else {
-            // conduct search
+            
         }
     }
     
